@@ -1,0 +1,61 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <h1>Prototype Steptember 2021</h1>
+    5 teams hebben meegedaan met Steptember
+    <br>
+    Je kunt per dag kijken wat de resultaat waren per team.
+    <br>
+    Ook is het mogelijk om teams met elkaar te vergelijken.
+    <br>
+    Op deze pagina worden hun resultaat getoond.
+    <br>
+    Maak hieronder de juiste keuzes en klik op resultaat.
+    <br>
+
+    <form name="keuze maken" method="post" action="Project Steptember.php"><br>
+        Kies welke dag
+        <select name='dag'>
+            <option value="0">Maandag
+            <option value="1">Dinsdag
+            <option value="2">Woensdag
+            <option value="3">Donderdag
+            <option value="4">Vrijdag
+            <option value="5">Zaterdag
+            <option value="6">Zondag
+        </select>
+        <h6></h6>
+        welke berekening
+        <br>
+        Hoogste waarde
+        <input type="radio" name="getal" value="Hoogste_waarde"><br>
+        Gemiddelde
+        <input type="radio" name="getal" value="Gemiddelde"><br>
+        Totaal
+        <input type="radio" name="getal" value="Totaal"><br>
+        <h6></h6>
+        Welke team
+        <br>
+        Team 1
+        <input type="checkbox" name="Team1" value="true"></br>
+        Team 2
+        <input type="checkbox" name="Team2" value="true"></br>
+        Team 3
+        <input type="checkbox" name="Team3" value="true"></br>
+        Team 4
+        <input type="checkbox" name="Team4" value="true"></br>
+        Team 5
+        <input type="checkbox" name="Team5" value="true"></br>
+        <br>
+        <input type="submit" name="B1" value="Resultaat"></br>
+    </form>
+</body>
+
+</html>

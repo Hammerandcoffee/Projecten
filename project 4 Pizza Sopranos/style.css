@@ -1,0 +1,11 @@
+.footer{
+	color: black;
+	background-color: rgb(103, 179, 103);
+	width: 100%;
+	float:left;
+}
+
+.dropdown-menu{
+	background-color: rgb(45, 185, 45);
+
+}
